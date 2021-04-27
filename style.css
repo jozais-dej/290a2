@@ -19,3 +19,156 @@ body {
     margin-bottom: 0;
     background-color: #eeeeee;
 }
+
+a {
+    color: #000;
+    text-decoration: none;
+    /*cursor: crosshair;*/
+}
+
+    a:hover {
+        color: rgb(0, 150, 255);
+    }
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+    button:hover {
+        color: rgb(0, 163, 255);
+    }
+
+
+    button .fa.fa-bullhorn {
+        color: white;
+        background-color: red;
+        border-radius: 50%;
+        width: 100px;
+        height: 80px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        font-size: 65px;
+        /*margin: 10px;*/
+        padding-top: 15px;
+        box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.20);
+    }
+
+        button .fa.fa-bullhorn:hover {
+            background-color: rgb(0, 150, 255);
+            width: 110px;
+            height: 88px;
+            position: fixed;
+            text-align: center;
+            font-size: 72px;
+            /*margin: 10px;*/
+            padding-top: 17px;
+            /*padding-top: 15px;*/
+            /*position: relative;*/
+            /*bottom: 20px;*/
+        }
+
+.navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+}
+
+.navitem {
+    display: inline-block;
+    padding: 10px 20px;
+    /*font-weight: 500px;*/
+}
+
+.active {
+    border: solid;
+    border-width: thick;
+    border-color: white white rgba(0, 150, 250, 1) white;
+}
+
+.navitem.navbar-search {
+    float: right;
+}
+
+#navbar-search-input {
+    background-color: #eeeeee;
+}
+
+    #navbar-search-input:focus {
+        background-color: white;
+    }
+
+.twit-container {
+    background-color: #eeeeee;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-top: 30px;
+    min-width: 80%;
+}
+
+.twit {
+    border-radius: 1%;
+    flex: 1 25%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    /*text-align: right;*/
+    margin: 5px;
+    min-width: 200px;
+    max-width: 30%;
+    display: flex;
+}
+
+    .twit a {
+        font-weight: 700;
+        display: block;
+        text-align: right;
+        /*position: relative;*/
+        /*right: 5px;*/
+    }
+
+@media(max-width: 1000px) {
+    .twit {
+        flex: 1 50%;
+    }
+}
+
+.twit-icon {
+    /*flex: 1 50%;*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*margin-top: 16px;*/
+    /*top: 50px;*/
+    /*padding-top: 5px;*/
+    /*max-width: 20px;*/
+    /*min-height: 50px;*/
+    margin: 16px;
+    font-size: 20px;
+}
+
+.twit-text {
+    /*display: inline-block;*/
+    /*margin: 0;*/
+    /*padding: 0px;*/
+}
+
+.twit-content {
+    /*flex: 1 50%;*/
+    display: inline-block;
+    margin: 0;
+    min-width: 75%;
+    /*max-width: 200px;*/
+    /*padding: 5px;*/
+}
