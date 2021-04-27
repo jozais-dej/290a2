@@ -125,7 +125,7 @@ button {
 
     .twit a {
         font-weight: 700;
-        display: block;
+        /*display: block;*/
         text-align: right;
     }
 
@@ -144,8 +144,4 @@ button {
     display: inline-block;
     margin: 0;
     min-width: 75%;
-}
-
-.twit-author {
-    text-align: right;
 }
