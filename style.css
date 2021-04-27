@@ -14,7 +14,6 @@
 }   
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     margin-bottom: 0;
     background-color: #eeeeee;
@@ -23,7 +22,6 @@ body {
 a {
     color: #000;
     text-decoration: none;
-    /*cursor: crosshair;*/
 }
 
     a:hover {
@@ -52,7 +50,6 @@ button {
         bottom: 20px;
         text-align: center;
         font-size: 65px;
-        /*margin: 10px;*/
         padding-top: 15px;
         box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.20);
     }
@@ -64,11 +61,7 @@ button {
             position: fixed;
             text-align: center;
             font-size: 72px;
-            /*margin: 10px;*/
             padding-top: 17px;
-            /*padding-top: 15px;*/
-            /*position: relative;*/
-            /*bottom: 20px;*/
         }
 
 .navbar {
@@ -85,7 +78,6 @@ button {
 .navitem {
     display: inline-block;
     padding: 10px 20px;
-    /*font-weight: 500px;*/
 }
 
 .active {
@@ -113,7 +105,7 @@ button {
     padding-bottom: 0;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 400px;
     padding-top: 30px;
     min-width: 80%;
 }
@@ -124,7 +116,6 @@ button {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
-    /*text-align: right;*/
     margin: 5px;
     min-width: 200px;
     max-width: 30%;
@@ -135,8 +126,6 @@ button {
         font-weight: 700;
         display: block;
         text-align: right;
-        /*position: relative;*/
-        /*right: 5px;*/
     }
 
 @media(max-width: 1000px) {
@@ -146,29 +135,12 @@ button {
 }
 
 .twit-icon {
-    /*flex: 1 50%;*/
-    /*display: inline-block;*/
-    /*position: relative;*/
-    /*margin-top: 16px;*/
-    /*top: 50px;*/
-    /*padding-top: 5px;*/
-    /*max-width: 20px;*/
-    /*min-height: 50px;*/
     margin: 16px;
     font-size: 20px;
 }
 
-.twit-text {
-    /*display: inline-block;*/
-    /*margin: 0;*/
-    /*padding: 0px;*/
-}
-
 .twit-content {
-    /*flex: 1 50%;*/
     display: inline-block;
     margin: 0;
     min-width: 75%;
-    /*max-width: 200px;*/
-    /*padding: 5px;*/
 }
