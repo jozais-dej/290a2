@@ -1,10 +1,13 @@
 /*
  * Add your CSS styles to this file.
  */
-
+@font-face {
+    font-family: myFontsName;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap);
+}
 .site-title{
-        margin: 0;
-        background-color: dodgerblue;
+    margin: 0;
+    background-color: dodgerblue;
     color: #FFE;
     font-weight: 200;
     padding-bottom: 15px;
@@ -14,7 +17,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: myFontsName;
     margin: 0;
     margin-bottom: 0;
     background-color: #eeeeee;
@@ -36,7 +39,7 @@ button {
 }
 
     button:hover {
-        color: rgb(0, 163, 255);
+        color: dodgerblue;
     }
 
 
