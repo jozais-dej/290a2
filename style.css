@@ -7,10 +7,10 @@
         background-color: rgba(0, 150, 250, .9);
     color: #FFE;
     font-weight: 200;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10x;
     font-size: 50px;
-    padding-left: 15px;
+    padding-left: 10px;
 }   
 
 body {
@@ -83,7 +83,7 @@ button {
 .active {
     border: solid;
     border-width: thick;
-    border-color: white white rgba(0, 150, 250, 1) white;
+    border-color: white;
 }
 
 .navitem.navbar-search {
