@@ -76,7 +76,7 @@ button {
 }
 
 .navitem {
-    display: block;
+    display: inline-block;
     padding: 10px 20px;
 }
 
