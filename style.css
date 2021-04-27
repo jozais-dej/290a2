@@ -84,7 +84,7 @@ button {
 .active {
     border: solid;
     border-width: thick;
-    border-color: white;
+    border-color: white white rgba(0, 150, 250, 1) white;
 }
 
 .navitem.navbar-search {
@@ -106,7 +106,7 @@ button {
     padding-bottom: 0;
     display: flex;
     flex-wrap: wrap;
-    /*padding: 400px;*/
+    padding: 40px;
     padding-top: 30px;
     min-width: 80%;
 }
